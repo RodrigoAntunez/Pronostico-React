@@ -1,0 +1,38 @@
+.container{
+    border: rgba(26, 25, 25, 0.363) solid 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 175px;
+    position: relative;
+}
+
+.button{
+    height: min-content;
+    width: min-content;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgba(255, 0, 0, 0.493);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.temperatura{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+}
+
+.temperatura img{
+    background-color: rgb(77, 83, 83);
+    border-radius: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+

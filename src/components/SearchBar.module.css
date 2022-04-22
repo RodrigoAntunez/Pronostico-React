@@ -1,0 +1,15 @@
+.contenedor input{
+    background-color: rgba(160, 151, 151, 0.329);
+    border: none;
+}
+
+.button{
+    background-color: rgba(130, 134, 134, 0.288);    
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(24, 23, 23, 0.349);
+}
